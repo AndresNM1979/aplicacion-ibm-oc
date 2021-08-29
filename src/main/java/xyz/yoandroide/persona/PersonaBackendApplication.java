@@ -18,7 +18,7 @@ public class PersonaBackendApplication {
 		return new WebMvcConfigurer() {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
-				registry.addMapping("/**").allowedOrigins("http://aplicacion-ibm-oc-backend-git:4200").allowedMethods("*").allowedHeaders("*");
+				registry.addMapping("/**").allowedOrigins("http://aplicacion-ibm-oc-frontend-git:4200").allowedMethods("*").allowedHeaders("*");
 			}
 		};
 	}
